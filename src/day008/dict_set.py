@@ -50,11 +50,11 @@ print(f'Difference: {cache - cache2}')
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         cache = {}
-    for i, num in enumerate(nums):
-        if target - num in cache:
-            return [cache[target - num], i]
-        else:
-            cache[num] = i
+        for i, num in enumerate(nums):
+            if target - num in cache:
+                return [cache[target - num], i]
+            else:
+                cache[num] = i
 
 # Решить [Valid Anagram](https://leetcode.com/problems/valid-anagram/) через frequency map
 

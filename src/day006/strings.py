@@ -68,5 +68,8 @@ def vowels(name):
 
 print(vowels('kRISTINA vAsileva'))
 
+# ASCII value
+print(f'ASCII ord("a") = {ord('a')}')
+
 
 

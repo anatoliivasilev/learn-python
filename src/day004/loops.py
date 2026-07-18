@@ -1,6 +1,9 @@
 for i in range(1,11):
     print(i ** 2)
 
+for i in range(5, 1, -1):
+    print(i)
+
 while True:
     i = int(input('input positive number: '))
     if i >= 0:
